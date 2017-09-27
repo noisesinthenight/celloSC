@@ -1,0 +1,30 @@
+<xml>
+<hive name="myprojectname">
+
+<minibee id="1" serial="0013A20040A7386B" libversion="6" revision="D" caps="7" configuration="1">
+</minibee>
+
+
+<configuration id="1" name="acceloro" message_interval="50" samples_per_message="1" redundancy="3" rssi="True">
+
+<twi id="1" device="ADXL345" name="accelero">
+    <twislot id="0" name="x" />
+    <twislot id="1" name="y" />
+    <twislot id="2" name="z" />
+</twi>
+<pin config="TWIData" id="A4" name="None" />
+
+<pin config="AnalogIn" id="A0" name="piezo" />
+<pin config="DigitalInPullup" id="D3" name="but" />
+<pin config="DigitalInPullup" id="D5" name="but" />
+<pin config="DigitalInPullup" id="D6" name="but" />
+<pin config="DigitalInPullup" id="D7" name="but" />
+<pin config="DigitalInPullup" id="D8" name="but" />
+<pin config="DigitalInPullup" id="D9" name="but" />
+<pin config="DigitalInPullup" id="D10" name="but" />
+<pin config="DigitalInPullup" id="D11" name="but" />
+</configuration>
+
+
+</hive>
+</xml>
